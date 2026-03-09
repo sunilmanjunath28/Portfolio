@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sunil A M - Aspiring Full Stack Developer Portfolio">
+    <title>Sunil A M | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Sunil A M</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-image">
+            <img src="images/profile.jpeg" alt="Sunil A M" class="hero-profile-img">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Sunil A M</span></h1>
+            <h2 class="hero-subtitle">
+                <span class="typing-text"></span>
+                <span class="cursor">|</span>
+            </h2>
+            <p class="hero-description">
+                Computer Science student passionate about building web applications 
+                using modern technologies. I love learning new frameworks and creating 
+                innovative solutions to real-world problems.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="images/Sunil Resume13 FSD.pdf" class="btn btn-primary" download="Sunil_AM_Resume.pdf" onclick="downloadResume(event)">
+                    <i class="fas fa-download"></i> Resume
+                </a>
+            </div>
+            <div class="hero-social-buttons">
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                <a href="mailto:sunilswathi84@gmail.com" class="btn-icon" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/sunilmanjunath28" target="_blank" class="btn-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sunilmanjunath28/" target="_blank" class="btn-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                    I am Sunil A M, a Computer Science student and passionate Python Full Stack Developer
+                    focused on building modern, scalable, and user-friendly web applications.
+
+                    I have strong skills in frontend development using HTML, CSS, JavaScript, and React to create responsive and interactive user interfaces.
+                    On the backend, I work with Python and frameworks like Django to build secure and efficient server-side applications.
+                    </p>
+                    <p>
+                    I have experience integrating databases such as MySQL and designing RESTful APIs to support dynamic web applications.
+                    My development approach focuses on writing clean, maintainable, and efficient code while following modern software development practices.
+                    I enjoy solving real-world problems through technology and continuously improving my ability to design practical software solutions.
+                    Through personal and academic projects, I have gained hands-on experience in full stack development, application design, and system integration.
+                    </p>
+                    <p>
+                    I am constantly learning new frameworks, tools, and development techniques to stay updated with industry trends.
+                    I actively practice coding, build projects, and explore new technologies to strengthen my technical foundation.
+                    My goal is to become a highly skilled Full Stack Developer and contribute to innovative software products that create real impact.
+                    </p>
+                    <div class="tech-learning">
+                        <h3>Currently Learning:</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="skills-subtitle">Technologies and tools I work with</p>
+            
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-group">
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-code"></i> Programming Languages
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> C</span>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skill-group">
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-laptop-code"></i> Frontend
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span class="skill-tag"><i class="fas fa-wind"></i> Tailwind CSS</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-group">
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-server"></i> Backend
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> Express.js</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Flask</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Django</span>
+                        <span class="skill-tag"><i class="fas fa-leaf"></i> Spring Boot</span>
+                        <span class="skill-tag"><i class="fas fa-exchange-alt"></i> RESTful APIs</span>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="skill-group">
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-database"></i> Database
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-group">
+                    <h3 class="skill-group-title">
+                        <i class="fas fa-tools"></i> Tools & Platforms
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> VS Code</span>
+                        <span class="skill-tag"><i class="fas fa-cloud"></i> Vercel</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> Render</span>
+                        <span class="skill-tag"><i class="fas fa-globe"></i> Netlify</span>
+                        <span class="skill-tag"><i class="fas fa-train"></i> Railway</span>
+                        <span class="skill-tag"><i class="fas fa-fire"></i> Firebase</span>
+                        <span class="skill-tag"><i class="fas fa-paper-plane"></i> Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Blockchain Healthcare -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop" alt="Blockchain Healthcare System" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Blockchain & AI Healthcare Management System</h3>
+                        <p>Secure healthcare platform using blockchain for tamper-proof medical records and AI-based predictive models for disease prediction insights.</p>
+                        <div class="project-tech">
+                            <span>Blockchain</span>
+                            <span>AI/ML</span>
+                            <span>Python</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sunilmanjunath28/Blockchain-and-AI-powered-Healthcare-Management-System" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Corporate Fraud Detection -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop" alt="Fraud Detection System" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Corporate Fraud Detection & Verification System</h3>
+                        <p>AI-powered system to detect and verify corporate fraud using machine learning algorithms and data analysis techniques.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Flask</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sunilmanjunath28/Corporate-Fraud-Detection-Verification-System" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: ShopKart -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop" alt="ShopKart E-Commerce" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>ShopKart - E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce application with product management, shopping cart, secure authentication, and order processing.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>REST APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sunilmanjunath28/ShopKart" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Job Portal -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop" alt="Job Portal Application" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Job Portal Application</h3>
+                        <p>Full-stack job portal with JWT authentication, job posting, application tracking, and resume upload functionality.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sunilmanjunath28/job-portal" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Online Meeting -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&h=600&fit=crop" alt="Online Meeting Application" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Meeting Web Application</h3>
+                        <p>Real-time video conferencing platform with meeting management, user authentication, and seamless participant interaction.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>WebRTC</span>
+                            <span>Node.js</span>
+                            <span>Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sunilmanjunath28/online-meeting" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: AI Chatbot -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=600&fit=crop" alt="AI Chatbot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Chatbot</h3>
+                        <p>Intelligent conversational AI chatbot with natural language processing capabilities for automated customer support.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Machine Learning</span>
+                            <span>Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sunilmanjunath28/AI-Chatbot" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: Crop Advisor -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=600&fit=crop" alt="Crop Advisor System" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Crop Advisor System</h3>
+                        <p>ML-based agricultural recommendation system that suggests optimal crops based on soil conditions and environmental factors.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Flask</span>
+                            <span>Data Science</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sunilmanjunath28/crop-advisor" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8: Air Writing System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&h=600&fit=crop" alt="Air Writing System" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Air Writing System</h3>
+                        <p>Computer vision-based system that recognizes hand gestures in air to write text using OpenCV and machine learning.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Computer Vision</span>
+                            <span>ML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sunilmanjunath28/Air-Writing-System" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <!-- UG Education -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <div class="education-left">
+                                <h3>Bachelor of Engineering in Computer Science</h3>
+                                <h4>Bahubali College of Engineering</h4>
+                                <p class="education-location">
+                                    <i class="fas fa-map-marker-alt"></i> Shravanabelagola, Karnataka
+                                </p>
+                            </div>
+                            <div class="education-right">
+                                <span class="education-duration">Aug 2022 - Jun 2026</span>
+                                <span class="education-status">(Pursuing)</span>
+                                <span class="education-grade">CGPA: 8.20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PUC Education -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <div class="education-left">
+                                <h3>Pre-University Course (PUC)</h3>
+                                <h4>Govt PU College</h4>
+                                <p class="education-location">
+                                    <i class="fas fa-map-marker-alt"></i> Chikkamagaluru, Karnataka
+                                </p>
+                            </div>
+                            <div class="education-right">
+                                <span class="education-duration">May 2020 - Jul 2022</span>
+                                <span class="education-grade">Percentage: 65.4%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates & Achievements Section -->
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificates & Achievements</h2>
+            <div class="certificates-grid">
+                <!-- Certificate 1: Research Publication -->
+                <div class="certificate-card" onclick="openModal('cert1')">
+                    <div class="certificate-image-container">
+                        <img src="images/ijirt-certificate.jpeg" alt="IJIRT Research Publication Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Research Paper Publication</h3>
+                        <h4>International Journal of Innovative Research in Technology (IJIRT)</h4>
+                        <p class="certificate-title">"Blockchain and AI-Powered Healthcare Management System"</p>
+                        <div class="certificate-details">
+                            <span><i class="fas fa-calendar"></i> January 2026</span>
+                            <span><i class="fas fa-book"></i> Volume 12, Issue 8</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 2: Infosys Springboard -->
+                <div class="certificate-card" onclick="openModal('cert2')">
+                    <div class="certificate-image-container">
+                        <img src="images/infosys-certificate.jpeg" alt="Infosys Springboard Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Website Development Tutorial</h3>
+                        <h4>Infosys Springboard</h4>
+                        <div class="certificate-details">
+                            <span><i class="fas fa-calendar"></i> February 2026</span>
+                            <span><i class="fas fa-building"></i> Infosys Limited</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 3: Simplilearn MERN Stack -->
+                <div class="certificate-card" onclick="openModal('cert3')">
+                    <div class="certificate-image-container">
+                        <img src="images/simplilearn-certificate.jpeg" alt="Simplilearn MERN Stack Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Introduction to MERN Stack</h3>
+                        <h4>Simplilearn SkillUp</h4>
+                        <div class="certificate-details">
+                            <span><i class="fas fa-calendar"></i> March 2026</span>
+                            <span><i class="fas fa-code"></i> Certificate Code: 9924435</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement: Internship Offer -->
+                <div class="certificate-card" onclick="openModal('cert4')">
+                    <div class="certificate-image-container">
+                        <img src="images/internship-offer.jpeg" alt="Spherenex Internship Offer Letter" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <p>Click to view</p>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>AI & ML Internship Offer</h3>
+                        <h4>Spherenex - Nexspyder Technologies Pvt Ltd</h4>
+                        <div class="certificate-details">
+                            <span><i class="fas fa-calendar"></i> January 2026</span>
+                            <span><i class="fas fa-clock"></i> 15 Weeks</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Bengaluru</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption"></div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h3 class="contact-section-title">Contact Information</h3>
+                    
+                    <!-- Email Card -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>EMAIL</h4>
+                            <a href="mailto:sunilswathi84@gmail.com">sunilswathi84@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <!-- Phone Card -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>PHONE</h4>
+                            <a href="tel:+919110855363">+91 9110855363</a>
+                        </div>
+                    </div>
+
+                    <!-- GitHub Card -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GITHUB</h4>
+                            <a href="https://github.com/sunilmanjunath28" target="_blank">github.com/sunilmanjunath28</a>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn Card -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LINKEDIN</h4>
+                            <a href="https://www.linkedin.com/in/sunilmanjunath28/" target="_blank">linkedin.com/in/sunilmanjunath28</a>
+                        </div>
+                    </div>
+
+                    <!-- Location Card -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LOCATION</h4>
+                            <p>Chikkamagaluru, Karnataka, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h3 class="contact-section-title">Send a Message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-send">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sunil A M. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:sunil@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <button class="back-to-top" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
