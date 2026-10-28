@@ -287,27 +287,24 @@ body {
     align-items: center;
 }
 
-.image-frame {
+.image-wrapper {
     position: relative;
     width: 320px;
     height: 320px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border: 4px solid white;
+    background: white;
+    flex-shrink: 0;
 }
 
-.image-frame::before {
-    display: none;
-}
-
-.image-frame img {
-    position: relative;
+.profile-img {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    display: block;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    z-index: 1;
     object-fit: cover;
-    object-position: center 25%;
-    border: 4px solid white;
+    object-position: center 20%;
+    display: block;
 }
 
 /* About Section */
@@ -1184,9 +1181,13 @@ body {
         margin: 0 auto;
     }
 
-    .image-frame {
-        width: 280px;
-        height: 280px;
+    .image-wrapper {
+        width: 240px;
+        height: 240px;
+    }
+
+    .profile-img {
+        object-position: center 20%;
     }
 
     .hero-content {
@@ -1428,9 +1429,13 @@ body {
         max-width: 100%;
     }
 
-    .image-frame {
-        width: 180px;
-        height: 180px;
+    .image-wrapper {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-img {
+        object-position: center 20%;
     }
 
     .hero-greeting {
